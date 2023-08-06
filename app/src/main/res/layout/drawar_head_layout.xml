@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/drawarHeader"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#FFFBF8
+"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/shu_bg_rmv" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Sheikh Hasina University"
+                android:layout_marginLeft="0dp"
+                android:textSize="20sp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:elevation="5dp"
+        android:layout_below="@id/drawarHeader"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#43000000"
+        />
+
+</RelativeLayout>

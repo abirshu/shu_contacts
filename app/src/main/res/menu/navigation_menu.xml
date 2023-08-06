@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/mProfile"
+        android:icon="@drawable/update_profile"
+        android:title="Update Profile" />
+    <item
+        android:id="@+id/mAll_user_profile"
+        android:title=" All user Profile"
+        android:icon="@drawable/all_user_profile"
+        />
+    <item
+        android:id="@+id/mContact"
+        android:icon="@drawable/ic_contact"
+        android:title="Contact info" />
+
+
+    <item
+        android:id="@+id/mCalendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="Calendar" />
+
+    <item
+        android:id="@+id/mBus"
+        android:icon="@drawable/ic_bus"
+        android:title="Student Bus" />
+
+
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/fb"
+                android:title="Join us on Facebook" />
+            <item
+                android:id="@+id/About"
+                android:icon="@drawable/about"
+                android:title="About" />
+
+            <item
+                android:id="@+id/Policy"
+                android:icon="@drawable/ic_privacy"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/Share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/Bug"
+                android:icon="@drawable/ic_bug"
+                android:title="Report any Bug" />
+
+
+        </menu>
+
+    </item>
+    <item>
+        <menu>
+            <item
+                android:icon="@drawable/sign_out"
+                android:title="Sign Out"
+                android:id="@+id/signoutMenuId"/>
+        </menu>
+
+    </item>
+
+</menu>

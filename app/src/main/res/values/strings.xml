@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SHU_Contact</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="title_text">Sheikh Hasina University</string>
+    <string name="message_text">Do you want to exit ?</string>
+    <string name="title_activity_all_user_profile">All_user_profile</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="privacy_policy">"At Sheikh Hasina University application, we are committed to protecting the privacy of our users. This privacy policy applies to the Sheikh Hasina University application developed on Android Studio and outlines how we collect, use, and share personal information.
+
+When you download and use the Sheikh Hasina University application, we may collect certain information about your device, including the unique device identifier, device model, and operating system. We may also collect information about your usage of the Sheikh Hasina University application, including the courses you have enrolled in and your progress through them.
+
+We use this information to provide and improve the Sheikh Hasina University application, as well as to personalize your experience. We may also use this information to communicate with you about your account.
+
+We will not share your personal information with third parties, except as necessary to fulfill our obligations to you or as required by law.
+
+We take reasonable measures to protect the security of your personal information, but please be aware that no system is completely secure. We cannot guarantee the security of your personal information, and any transmission is at your own risk.
+
+If you have any questions about this privacy policy or our treatment of your personal information, please contact us.
+
+
+    </string>
+
+    <string name="shu_history">On 30 January 2017 in regular cabinet meeting, chaired by Prime minister, agreed in principle to the Acts for the Sheikh Hasina University in Netrokona District.
+
+The Sheikh Hasina University welcomed its first group of students on 3 March 2019, and Professor Dr. Rafique Ullah Khan served as the institution’s founding vice chancellor. The University is now running on temporary premises.
+        On 500 acres of land, the University will be established near city of Netrokona.\n\n
+
+The University began activities with 1 faculty, 3 departments, 6 teachers, 90 students. The university now has 2 faculty, 4 departments, 11 teachers, 330 students. The number of students and teachers is increasing.
+
+The main purpose of this university is achieving a new level of excellence in research and a unique milestone in promoting new ideas and innovation, as well as serving the nation and the global community by developing
+        enlightened and skilled professionals capable of meeting the challenges of the future.
+
+    </string>
+
+    <string name="message_from_vc">Sheikh Hasina University has begun a steady journey toward achieving a new level of excellence in research and a unique milestone in promoting new ideas and innovation, as well as serving the nation and the global community by developing enlightened and skilled professionals capable of meeting the challenges of the future.\n\nGlobally, the higher education landscape has undergone a dramatic paradigm shift and impressive expansion. Higher education in Bangladesh has also easily adjusted to the needs of the global community, and Sheikh Hasina University has prepared for the difficulties of the world by utilizing the most recent technological advancements in the field of education.\n\nThe movement toward interdisciplinary studies, research-based, interactive learning, and technological integration has produced both a variety of opportunities and difficulties. With a goal of developing core competencies in students by integrating information with skills on the basis of ethics and values, the main focus is on building an optimal and vibrant platform for excellence in knowledge enhancement and bridging the gap between academia and industry.
+    </string>
+
+</resources>

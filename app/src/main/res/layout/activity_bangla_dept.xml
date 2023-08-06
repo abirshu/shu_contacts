@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="#F3F3ED"
+    tools:context=".Bangla_Dept">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/syllabusButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Syllabus"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:backgroundTint="#B2FFB2"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:drawableLeft="@drawable/syllabus"
+
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Year"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:backgroundTint="#d9f2e6"
+            android:drawableLeft="@drawable/c_programming"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            />
+        <Button
+            android:id="@+id/firstSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="First Semester"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/one"
+            android:backgroundTint="#ffffff"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:layout_margin="0dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+
+            />
+
+        <Button
+
+            android:id="@+id/secondSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="0dp"
+            android:drawableLeft="@drawable/two"
+            android:text="Second Semester"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+
+
+            />
+        <Button
+            android:id="@+id/secondYearButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Second Year"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#d9f2e6"
+            android:drawableLeft="@drawable/cpp_programming"
+            android:layout_margin="5dp"
+
+            />
+
+        <Button
+            android:id="@+id/thirdSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Third Semester"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/three"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+
+
+            />
+
+        <Button
+            android:id="@+id/fourthSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Fourth Semester"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/four"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+            />
+
+        <Button
+            android:id="@+id/thirdYearButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Third Year"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#d9f2e6"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/networking"
+
+
+            />
+        <Button
+            android:id="@+id/fifthSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Fifth Semester"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/five"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+
+
+            />
+
+        <Button
+            android:id="@+id/sixthSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Sixth Semester"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/six"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+            />
+
+
+        <Button
+            android:id="@+id/fourthYearButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fourth Year"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:backgroundTint="#d9f2e6"
+            android:textColor="#000000"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/python"
+
+            />
+        <Button
+            android:id="@+id/seventhSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Seventh Semester"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/seven"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+
+
+            />
+
+        <Button
+            android:id="@+id/eightSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="1dp"
+            android:backgroundTint="#ffffff"
+            android:drawableLeft="@drawable/eight"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:text="Eightth Semester"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

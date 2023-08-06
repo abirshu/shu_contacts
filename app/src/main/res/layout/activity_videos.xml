@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Videos">
+    <LinearLayout
+        android:background="#D8FAEC"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_viewfour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="MXk5uEohN7U"
+            android:layout_margin="0dp"
+            app:autoPlay="false" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_viewfive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:autoPlay="false"
+            app:videoId="MVYZ8LBJbsY" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="9Cfr7DFEnko"
+            android:layout_marginTop="5dp"
+            app:autoPlay="false" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_viewone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:videoId="qaM5TF3LxnU"
+            app:autoPlay="false" />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_viewtwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="TTM-yNLzM_c"
+            android:layout_marginTop="5dp"
+            app:autoPlay="false" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_viewthree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:videoId="gZGSqOB9hao"
+            app:autoPlay="false" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#24273A"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:text="Last Update 22 July 2023"/>
+
+    </LinearLayout>
+
+</ScrollView>
